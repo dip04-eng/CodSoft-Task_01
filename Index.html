@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakash Metla's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="D:/Codesoft_Webdev/Task_01/Profile_pic.jpg">Prakash Metla</a>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="about-content">
+<img src="profile_pic.png" alt="Prakash Metla" class="profile-pic">
+                    <div class="bio">
+                        <h2>About Me</h2>
+                        <p>
+                            I am a B.Tech student in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning (AI & ML). Alongside my academic journey, I have completed multiple internships in machine learning, web development, and cyber security, which have helped me gain practical industry exposure. I have also worked on various projects ranging from AI-driven applications to hardware-based solutions, showcasing my ability to integrate software intelligence with real-world systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding bg-light">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">HTML</div>
+                    <div class="skill-item">CSS</div>
+                    <div class="skill-item">ML</div>
+                    <div class="skill-item">Computer Networks</div>
+                    <div class="skill-item">OS</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x250" alt="Project 1">
+                        <h3>Project One</h3>
+                        <p>A brief description of your project. Mention the technologies used and what problem it solves.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x250" alt="Project 2">
+                        <h3>Project Two</h3>
+                        <p>A brief description of your project. Mention the technologies used and what problem it solves.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x250" alt="Project 3">
+                        <h3>Project Three</h3>
+                        <p>A brief description of your project. Mention the technologies used and what problem it solves.</p>
+                        <a href="#">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="resume" class="section-padding bg-light">
+            <div class="container text-center">
+                <h2>Resume</h2>
+                <p>Download my resume to learn more about my experience and skills.</p>
+                <a href="Resume.pdf" download class="btn-primary">Download Resume (PDF)</a>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding">
+            <div class="container text-center">
+                <h2>Contact Me</h2>
+                <p>Feel free to get in touch!</p>
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:prakashmetla2020@gmail.com">prakashmetla2020@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+918392025573">+918392025573</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="current-year"></span> Prakash Metla. All Rights Reserved.</p>
+                <ul class="social-links">
+                    <li><a href="https://github.com/dip04-eng" target="_blank">GitHub</a></li>
+                    <li><a href="www.linkedin.com/in/prakash-metla-921050253" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://x.com/uncanny_dip07" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
